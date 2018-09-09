@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+
+
+
+body{
+
+	font-family: Roboto Slab;
+    margin: 0;
+}
+
+
+
+.header{
+	
+	
+	background-image: url("better.jpg");
+    
+    
+}
+
+.header h2{
+	margin: 0;
+	padding: 9rem;
+	color: white;
+	text-align: center;
+}
+
+.header ul{
+	padding: 0.5rem;
+    display: flex;
+	list-style: none;
+	justify-content: space-around;
+
+}
+.header a{
+	
+	text-decoration: none;
+ 	color: #ff851b;
+ 	font-weight: 900;
+}
+.section {
+	background-color: #232323;
+ 	padding:3rem;
+ 	outline: 2px solid #00ff6c;
+ 	outline-offset: -2.5rem;
+ 	position: relative;
+ 	color: white;
+}
+.section h2{
+ 	color: #00ff6c;
+ 	position: absolute;
+ 	top: 0.1em;
+ 	left:44%;
+ 	background-color: #232323;
+ }
+
+ .Intro{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+
+ }
+ .Intro img{
+ 	height: 10rem;
+ 	width: 10rem;
+ 	
+ 	
+ }
+ 
+
+@media screen and (max-width:550px) {
+	.header ul{
+		display: flex;
+		flex-direction: column;
+		width:100%;
+		list-style: none;
+		align-items: center;
+	}
+    .header li{
+    	margin:1rem;
+
+    }
+    .header a{
+    	font-size: 1.1rem;  /*slight increase in font size*/
+    }
+
+
+	
+}
+
+@media screen and (max-width:800px) {
+	.Intro {
+    	flex-direction: column;
+    }
+	.Intro img{
+		margin-top: 2rem;
+	}
+}
