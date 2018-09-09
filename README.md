@@ -26,3 +26,5 @@ Responsive Design:
 The units of measurment i used is primarily "rem"
 
 Display picture i used here is the one that i have in github . i couldnt find a good picture of mine so i used it instead.
+
+Master branch code is the one that i finalized for assignment.
